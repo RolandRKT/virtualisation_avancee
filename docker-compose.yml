@@ -1,0 +1,6 @@
+services:
+  mon_site_web:
+    image: IUTORegistryProxy:5000/basic_web_flask
+    container_name: testflask_compose
+    ports:
+     - 8080:8000
